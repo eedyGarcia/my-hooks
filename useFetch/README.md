@@ -1,6 +1,8 @@
-# Notas 
-Este es un repositorio que contiene varios Hooks utilizados para distintos propositos:
+# Notas
 
-1. Fetch
-2. Counter
-3. Form
+Ejemplo de uso:
+```
+const url = 'EndPoint de una Api';
+
+const {data:null,loading:true,error:null} = useFetch(url);
+```
